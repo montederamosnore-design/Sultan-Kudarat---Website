@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sultan Kudarat Tourism Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <img src="images/logo.png" alt="Sultan Kudarat Tourism Logo" height="40" class="me-2">
+            <a class="navbar-brand fw-bold text-warning" href="index.html#home">Sultan Kudarat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active text-warning" href="about.html">About</a></li>        
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="festivals.html">Festivals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="food.html">Delicacies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-warning btn-sm text-dark px-3 fw-bold shadow-sm" href="inquiry.html">Inquire Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="heroCarousel" class="carousel slide carousel-fade shadow" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/capitol.jpg') no-repeat center center/cover; min-height: 100vh">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <h1 class="display-2 fw-bold text-shadow animate-fade-in text-warning">Welcome to the Golden Province</h1>
+                    <p class="lead text-light">A Beautiful Blend of Culture & Adventure</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/talakudong.jpg') no-repeat center center/cover;min-height: 100vh">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <h1 class="display-4 fw-bold text-warning">Rich Culture & Traditions</h1>
+                    <p class="lead text-light">A beautiful melting pot of diverse faiths and heritages</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/kape.jpg') no-repeat center center/cover; min-height: 100vh">
+                <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                    <h1 class="display-4 fw-bold text-warning">Breathtaking Destinations</h1>
+                    <p class="lead text-light">Explore pristine highlands, caves, and coastlines</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </header>
+
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="position-relative pe-lg-4">
+                        <img src="images/capitol.jpg" alt="Sultan Kudarat Capitol" class="img-fluid rounded-4 shadow-lg w-100 mb-4">
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <img src="images/talakudong.jpg" alt="Talakudong Festival" class="img-fluid rounded-3 shadow">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/kape.jpg" alt="Sultan Kudarat Coffee" class="img-fluid rounded-3 shadow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mb-4">
+                        <h2 class="fw-bold text-success d-flex align-items-center gap-2">
+                            <i class="bi bi-geo-alt-fill text-warning"></i> Location
+                        </h2>
+                        <p class="text-secondary lh-lg text-start">Sultan Kudarat is nestled in the southwestern part of Mindanao island and belongs to the <strong>SOCCSKSARGEN region (Region XII)</strong>. It shares borders with North Cotabato to the north, Maguindanao to the northwest, South Cotabato to the east, Sarangani to the southeast, and the Moro Gulf to the west.</p>
+                        <p class="text-secondary lh-lg text-start">The province covers a total land area of approximately <strong>5,263 square kilometers</strong>. Its geography is incredibly diverse, stretching from towering mountain ranges in the interior to fertile river valleys and a long western coastline.</p>
+                    </div>
+
+                    <div class="mt-5">
+                        <h2 class="fw-bold text-success d-flex align-items-center gap-2">
+                            <i class="bi bi-info-circle-fill text-warning"></i> Overview
+                        </h2>
+                        <p class="text-secondary lh-lg text-start">Sultan Kudarat was officially established as a province on <strong>June 22, 1973</strong> through Presidential Decree No. 341. It was carved out from the old Cotabato province and proudly named after one of Mindanao's greatest heroes — <strong>Sultan Muhammad Dipatuan Kudarat</strong>, the fearless 17th-century Muslim ruler who fiercely resisted Spanish colonization.</p>
+                        <p class="text-secondary lh-lg text-start">Today, Sultan Kudarat is a thriving agricultural power. Its wide plains produce massive harvests of rice and corn, while its highland areas cultivate high-quality Arabica coffee and pineapples. <strong>Tacurong City</strong> serves as its vibrant urban hub for trade, education, and transportation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-success">Known Attractions</h2>
+                <p class="text-muted">Must-visit landmarks and natural wonders</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-bank text-success me-2"></i>Provincial Capitol Building</h5>
+                            <p class="text-muted small mb-3">Isulan</p>
+                            <p class="card-text text-secondary small lh-base">Standing proudly at the heart of Isulan, it features a massive golden dome that gleams brilliantly under the sun. Surrounded by beautifully landscaped gardens, it serves as a proud living symbol of Sultan Kudarat's identity and progress.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-twitter-x text-success me-2"></i>Baras Bird Sanctuary</h5>
+                            <p class="text-muted small mb-3">Tacurong City</p>
+                            <p class="card-text text-secondary small lh-base">Home to tens of thousands of wild birds like herons and egrets. Every late afternoon, the sky transforms into a spectacular aerial show as massive flocks swirl and return to the riverside roosting trees.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-compass text-success me-2"></i>La Palmera Mountain Ridge</h5>
+                            <p class="text-muted small mb-3">Columbio</p>
+                            <p class="card-text text-secondary small lh-base">A breathtaking highland getaway with cool fresh air and panoramic views of rolling green hills and geometric pineapple plantations. Perfect for spectacular sunrises and camping enthusiasts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-tree text-success me-2"></i>Daguma Mountain Range</h5>
+                            <p class="text-muted small mb-3">Eco-Adventure Frontier</p>
+                            <p class="card-text text-secondary small lh-base">Blanketed in ancient rainforests protecting rich wildlife and indigenous Teduray and Manobo ancestral domains. Offers challenging, raw trekking paths alongside stunning stream systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-water text-success me-2"></i>Underground Rivers & Caves</h5>
+                            <p class="text-muted small mb-3">Subterranean Wonders</p>
+                            <p class="card-text text-secondary small lh-base">Carved over millions of years out of limestone rock, featuring towering stalactites, stalagmites, and crystal-clear streams. A thrilling spelunking environment for adventure seekers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-3 attraction-card">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold text-dark mb-2"><i class="bi bi-tsunami text-success me-2"></i>Moro Gulf Coastline</h5>
+                            <p class="text-muted small mb-3">Western Coast</p>
+                            <p class="card-text text-secondary small lh-base">An undiscovered, pristine coastline boasting magnificent sunsets and marine-rich waters. It offers an unhurried, authentic local fishing vibe far removed from overcrowded commercial spots.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="images/talakudong.jpg" alt="Culture and Traditions" class="img-fluid rounded-4 shadow-lg w-100">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <h2 class="fw-bold text-success mb-3"><i class="bi bi-people-fill text-warning me-2"></i>Culture & Traditions</h2>
+                    <p class="text-secondary lh-lg">Sultan Kudarat is a vibrant tri-people melting pot where <strong>Christian settlers</strong>, <strong>indigenous Maguindanaon Muslims</strong>, and <strong>Lumad tribes</strong> peacefully coexist.</p>
+                    
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-3 d-flex align-items-start gap-3">
+                            <i class="bi bi-check-circle-fill text-warning mt-1"></i>
+                            <div><strong>Artistry:</strong> Intricate, bold geometric patterns found on Lumad handwoven fabrics, alongside the rhythmic beats of the Maguindanaon <em>kulintang</em> gongs.</div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start gap-3">
+                            <i class="bi bi-check-circle-fill text-warning mt-1"></i>
+                            <div><strong>Kalivungan Festival:</strong> Held every October, showcasing unity through vibrant street-dancing rivalries and broad agricultural exhibitions.</div>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start gap-3">
+                            <i class="bi bi-check-circle-fill text-warning mt-1"></i>
+                            <div><strong>Kalimudan Festival:</strong> A beautiful tribute honoring the heritage, customs, and deep spiritual traditions of the Muslim communities.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-success text-white">
+        <div class="container py-4 text-center">
+            <h2 class="fw-bold mb-3 text-warning">Why You Should Visit</h2>
+            <p class="mx-auto lead mb-5" style="max-width: 700px;">Sultan Kudarat offers the real, unfiltered beauty of Mindanao without the tourist crowds. Experience unmatched warmth and culinary treasures found nowhere else.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 bg-dark bg-opacity-25 rounded-3 h-100">
+                        <i class="bi bi-heart-fill display-5 text-warning mb-3"></i>
+                        <h5>Genuine Hospitality</h5>
+                        <p class="small text-light text-opacity-75 mb-0">Hospitality is a deeply rooted value shared seamlessly across all cultures and faiths in the province.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-dark bg-opacity-25 rounded-3 h-100">
+                        <i class="bi bi-cup-hot-fill display-5 text-warning mb-3"></i>
+                        <h5>Highland Flavors</h5>
+                        <p class="small text-light text-opacity-75 mb-0">Sip smoky native highland coffee brewed fresh alongside tables laden with naturally sweet local pineapples.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-dark bg-opacity-25 rounded-3 h-100">
+                        <i class="bi bi-water display-5 text-warning mb-3"></i>
+                        <h5>Tiyula Itum</h5>
+                        <p class="small text-light text-opacity-75 mb-0">Savor a legendary rich, jet-black beef soup slow-cooked with burnt coconut and unique indigenous aromatics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4 mb-4">           
+                <div class="col-md-3 pe-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/logo.png" alt="Sultan Kudarat Tourism Logo" style="height: 40px; width: auto;" class="me-3">
+                        <h5 class="fw-bold text-warning mb-0">Visit Sultan Kudarat</h5>
+                    </div>
+                    <p class="text-secondary small">Explore the natural beauty, rich culture, and exciting adventures of Sultan Kudarat.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-warning mb-3">Opening Hours</h5>
+                    <p class="mb-1 text-secondary small">Monday - Sunday</p>
+                    <p class="text-secondary small">8:00 AM - 5:00 PM</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-warning mb-3">Tourism Motto</h5>
+                    <p class="text-secondary small">“Discover the Hidden Beauty of Mindanao”</p>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="fw-bold text-warning mb-3">Province Highlights</h5>
+                    <p class="text-secondary small">Nature • Culture • Adventure</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="row pt-2">
+                <div class="col text-center">
+                    <p class="text-secondary small mb-0">
+                        2026 | Created by: <span class="text-light fw-semibold">Nore Montederamos</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

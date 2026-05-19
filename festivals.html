@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivals - Sultan Kudarat Tourism Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <img src="images/logo.png" alt="Sultan Kudarat Tourism Logo" height="40" class="me-2">
+            <a class="navbar-brand fw-bold text-warning" href="#home">Sultan Kudarat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>        
+        <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link" href="festivals.html">Festivals</a></li>
+        <li class="nav-item"><a class="nav-link" href="food.html">Delicacies</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="tips.html">Tips</a></li>
+        <li class="nav-item d-flex align-items-center ms-lg-3 mt-2 mt-lg-0"><a class="btn btn-warning btn-sm text-dark px-3 fw-bold shadow-sm" href="inquiry.html">Inquire Now</a></li>
+    </ul>
+            </div>
+        </div>
+    </nav>
+
+<header id="heroCarousel" class="carousel slide carousel-fade shadow" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="7"></button>
+    </div>
+    
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/talakudong.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hamungaya.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bansadayaw.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/kanduli.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hinabyog.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hinugyaw.jpg') no-repeat center center/cover; min-height: 100vh"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/7.jpg') no-repeat center center/cover; min-height: 100vh;"></div>
+        <div class="carousel-item" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/8.jpg') no-repeat center center/cover; min-height: 100vh;"></div>
+    </div> 
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</header>
+    
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/talakudong.jpg" alt="Talakudong" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-warning text-dark mb-2">September</span>
+                            <h4>Talakudong Festival</h4>
+                            <h6 class="text-success">Tacurong City</h6>
+                            <p class="text-secondary mt-3">The Talakudong Festival is a historical cultural celebration showcased through a competitive street dancing exhibition. Performers wear colorful traditional headgear called "Kudong".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/kalamatansayan.jpg" alt="Kalamatansayan" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-danger mb-2">October</span>
+                            <h4>Kalamatansayan Festival</h4>
+                            <h6 class="text-success">Kalamansig</h6>
+                            <p class="text-secondary mt-3">A vibrant and grateful harvest Thanksgiving festival focused on marine resource abundance and local agricultural assets highlighting colorful street pageantry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/kalimudan.jpg" alt="Kalimudan" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">November</span>
+                            <h4>Kalimudan Festival</h4>
+                            <h6 class="text-success">Isulan (Provincial Capital)</h6>
+                            <p class="text-secondary mt-3">The grandest annual cultural gathering and founding anniversary celebration of Sultan Kudarat. It features spectacular street dancing and cultural showcases from different towns.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/hamungaya.jpg" alt="Hamungaya" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-success mb-2">August</span>
+                            <h4>Hamungaya Festival</h4>
+                            <h6 class="text-success">Isulan</h6>
+                            <p class="text-secondary mt-3">Isulan's municipal festival celebrating a bountiful harvest, abundance, and prosperity with local agricultural showcases and cultural performances.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/bansadayaw.jpg" alt="Bansadayaw" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">November</span>
+                            <h4>Bansadayaw Festival</h4>
+                            <h6 class="text-success">Bagumbayan</h6>
+                            <p class="text-secondary mt-3">A week-long celebration showcasing the municipality’s diverse tri-people culture through agro-trade fairs, cultural presentations, and lively street pageantry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/kanduli.jpg" alt="Kanduli" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-danger mb-2">October</span>
+                            <h4>Kanduli Festival</h4>
+                            <h6 class="text-success">Lutayan</h6>
+                            <p class="text-secondary mt-3">Deeply rooted in Maguindanaoan culture, this festival focuses on a traditional ritual offering and banquet expressing gratitude for peace, unity, and an abundant harvest.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/hinabyog.jpg" alt="Hinabyog" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">November</span>
+                            <h4>Hinabyog Festival</h4>
+                            <h6 class="text-success">Esperanza</h6>
+                            <p class="text-secondary mt-3">Symbolizing the resilience of the community through its swaying motion, this festival highlights the town's agricultural bounty, deep cultural harmony, and vibrant street dance showdowns.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/kawayan.jpg" alt="Kawayan" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-dark mb-2">December</span>
+                            <h4>Kawayan Festival</h4>
+                            <h6 class="text-success">Columbio</h6>
+                            <p class="text-secondary mt-3">A celebration of the abundance of bamboo, featuring creative displays of bamboo crafts alongside harmonious traditional dances from the Blaan, Maguindanaoan, and Christian communities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/kalilang.jpg" alt="Kalilang" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-warning text-dark mb-2">August</span>
+                            <h4>Kalilang / Sanufe Festival</h4>
+                            <h6 class="text-success">Palimbang</h6>
+                            <p class="text-secondary mt-3">An annual cultural celebration that honors the heritage of the Dulangan Manobos, highlighting themes of unity, communal planting traditions, and thanksgiving offerings.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/birdfestival.jpg" alt="Bird Festival" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-info text-dark mb-2">May</span>
+                            <h4>Sultan Kudarat Bird Festival</h4>
+                            <h6 class="text-success">Tacurong City</h6>
+                            <p class="text-secondary mt-3">An eco-tourism celebration dedicated to the preservation of the Baras Bird Sanctuary, featuring bird-watching tours, environmental forums, and conservation art.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border-0 overflow-hidden rounded-4 card-hover-effect">
+                        <img src="images/hinugyaw.jpg" alt="Hinugyaw Festival" class="card-img-top festival-img">
+                        <div class="card-body p-4">
+                            <span class="badge bg-success mb-2">August</span>
+                            <h4>Hinugyaw Festival</h4>
+                            <h6 class="text-success">Lebak</h6>
+                            <p class="text-secondary mt-3">A festival celebrating "jubilation" and unity among the Christian, Muslim, and indigenous tribes of Lebak, brought together by a shared thanksgiving for their harvests.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+        <div class="row g-4 mb-4">           
+            <div class="col-md-3 pe-lg-4">
+                <div class="d-flex align-items-center mb-3">
+                   <img src="images/logo.png" alt="Sultan Kudarat Tourism Logo" style="height: 40px; width: auto;" class="me-3">
+                    <h5 class="fw-bold text-warning mb-0">Visit Sultan Kudarat</h5>
+                </div>
+                <p class="text-secondary small">Explore the natural beauty, rich culture, and exciting adventures of Sultan Kudarat.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="fw-bold text-warning mb-3">Opening Hours</h5>
+                <p class="mb-1 text-secondary small">Monday - Sunday</p>
+                <p class="text-secondary small">8:00 AM - 5:00 PM</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="fw-bold text-warning mb-3">Tourism Motto</h5>
+                <p class="text-secondary small">“Discover the Hidden Beauty of Mindanao”</p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="fw-bold text-warning mb-3">Province Highlights</h5>
+                <p class="text-secondary small">Nature • Culture • Adventure</p>
+            </div>
+        </div>
+        <hr class="border-secondary">
+        <div class="row pt-2">
+            <div class="col text-center">
+                <p class="text-secondary small mb-0">
+                   2026 | Created by: <span class="text-light fw-semibold">Nore Montederamos</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

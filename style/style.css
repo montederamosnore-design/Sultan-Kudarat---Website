@@ -1,0 +1,237 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.hero-banner{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero-subtext {
+    max-width: 700px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ffc107;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+}
+
+.card-hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.btn-hover-grow {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-hover-grow:hover {
+    transform: scale(1.05);
+}
+
+.food-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-top: -40px;
+}
+
+.card-desc {
+    height: 72px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.dest-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.festival-img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.modal-hero-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.gallery-item {
+    height: 140px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.04);
+    filter: brightness(1.15);
+}
+
+.max-lightbox-img {
+    max-height: 85vh;
+    object-fit: contain;
+    margin: auto;
+}
+
+.btn-lightbox-nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-lightbox-nav:hover {
+    background-color: rgba(255, 193, 7, 0.9);
+    color: black !important;
+}
+
+.error-msg {
+    color: #dc3545;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    display: none;
+}
+
+.form-control.is-invalid, .form-select.is-invalid {
+    border-color: #dc3545;
+    background-image: none;
+}
+
+footer h5 {
+    letter-spacing: 0.5px;
+}
+
+footer p {
+    line-height: 1.6;
+}
+footer img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.text-secondary {
+    color: #a0aec0 !important;
+}
+
+.animate-fade-in {
+    animation: fadeIn ease 1.5s;
+}
+
+.gallery-hero-bg {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url('../images/hero.jpg'); /* Replace with your actual background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Creates a beautiful parallax scrolling effect */
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px rgba(255, 193, 7, 0.3);
+}
+
+.modal-content-glass {
+    background: rgba(15, 15, 15, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.btn-lightbox-nav {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(5px);
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+.btn-lightbox-nav:hover {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+    transform: translateY(-50%) scale(1.1) !important;
+}
+
+@keyframes fadeIn {
+    0% { opacity:0; transform: translateY(20px); }
+    100% { opacity:1; transform: translateY(0); }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: row !important;
+    }
+    .navbar-nav .nav-item:last-child {
+        margin-top: 0 !important;
+        margin-left: 1rem !important;
+    }
+}
+
+        .carousel-item {
+            position: relative;
+        }
+        .attraction-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .attraction-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+        }
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .navbar-nav .nav-item:last-child {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        width: auto !important;
+    }
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

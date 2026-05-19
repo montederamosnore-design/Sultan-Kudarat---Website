@@ -30,7 +30,7 @@ const destinations = [
         name: "Panigan Underground River and Cave",
         municipality: "Esperanza",
         category: "Adventure",
-        image: "images/3.jpg",
+        image: "images/3.JPG",
         shortDesc: "An exhilarating eco-tourism river cave system decorated with ancient hanging stalactites.",
         fullDesc: "Panigan River offers stalactite-filled subterranean passages, natural cold water pools, and incredible bat populations for thrill-seeking explorers.",
         entranceFee: "PHP 150.00 (With local guide)",

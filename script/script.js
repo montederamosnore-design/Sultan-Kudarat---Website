@@ -327,7 +327,6 @@ function validateForm(e) {
     if(document.getElementById("message").value.trim() === "") { showError("message", "messageError"); isValid = false; }
 
     if(isValid) {
-        alert("Inquiry submitted successfully!");
         document.getElementById("bookingForm").reset();
     }
 }
@@ -336,3 +335,15 @@ function showError(inputId, errorId) {
     document.getElementById(inputId).classList.add("is-invalid");
     document.getElementById(errorId).style.display = "block";
 }
+
+document.getElementById('bookingForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    let isFormValid = true; 
+
+    if (isFormValid) {
+        document.getElementById('bookingForm').classList.add('d-none');
+        
+        document.getElementById('thankYouMessage').classList.remove('d-none');
+    }
+});
